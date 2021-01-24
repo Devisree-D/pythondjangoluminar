@@ -6,8 +6,7 @@ for word in words:
         dict[word]=1
     else:
         dict[word]+=1
-print(dict
-      )
+print(dict)
 
 
 
