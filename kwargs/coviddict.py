@@ -10,7 +10,7 @@ for lines in f:
     if state not in dict:
         dict[state]={"state":state,"cured":cured,"death":death,"confirmed":confirmed}
     else:
-        dict[state] = {"state":state,"cured": cured, "confirmed": confirmed}
+        dict[state] = {"state":state,"cured": cured,"death":death,"confirmed": confirmed}
 print(dict)
 
 
