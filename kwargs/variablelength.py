@@ -1,3 +1,5 @@
+#*args in tuple and **kwargs in dict, both can store more than 2 arguments
+
 # def add(*args):
 #     return sum(args)
 # # or print(add(10,70,20))

@@ -5,7 +5,7 @@ class Bank:
     def withdrawal(self):
         print("inside withdraw")
 
-    def __deposit(self): #private method
+    def __deposit(self): #####private method
         print("inside deposit")
 
 # class Atm(Bank):

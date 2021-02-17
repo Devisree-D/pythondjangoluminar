@@ -1,3 +1,4 @@
+#if the id of the student exits the name and the prop is print
 f=open("students","r")
 students={}
 for lines in f:

@@ -11,5 +11,6 @@ class Student:
 
 
 obj = Student(1001,"django","akhil") #constructor invoked
+obj.get_student()
 print(obj.course)
 print(obj.roll)

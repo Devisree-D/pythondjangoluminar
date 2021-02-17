@@ -6,8 +6,8 @@ from re import *
 # pattern="\d" #chk for digit
 #
 # pattern="\D" #except digit
-#pattern="\w" # chk for all words except for spcl chara
-pattern="\W" #except words
+pattern="\w" # chk for all chara except for spcl chara &space
+# pattern="\W" #include spcl char &space except words&num
 matcher=finditer(pattern,"abc _7ZK@cgs")
 for match in matcher:
     print(match.start(),"-->",match.group())
